@@ -4,7 +4,7 @@ import json, os
 
 from app import TodoApp 
 
-ACCOUNT_FILE = "account.json"
+ACCOUNT_FILE = "src/account.json"
 
 def load_accounts():
     if os.path.exists(ACCOUNT_FILE):

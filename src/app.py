@@ -4,7 +4,7 @@ import json, os
 
 from add import AddTaskWindow
 
-TASK_FILE = "tasks.json"
+TASK_FILE = "src/tasks.json"
 
 def load_tasks():
     if os.path.exists(TASK_FILE):
